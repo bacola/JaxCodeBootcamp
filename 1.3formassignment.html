@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form Exercise</title>
+    </head>
+
+    <body>
+
+        <h1>Register</h1>
+
+        <!-- start of form -->
+        <form action="#" method="POST">
+
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" placeholder="First Name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" placeholder="Last Name" required>
+
+            <br>
+
+            <label for="male">Male</label>
+            <input type="radio" name="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="female">
+
+            <label for="other">Other</label>
+            <input type="radio" name="other">
+
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Password" required>
+
+            <br>
+
+            <label for="birthday">Birthday:</label>
+            <select name="month">
+                <option value="">Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+            </select>
+            <select name="day">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="year">
+                <option value="">Year</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                <option value="1993">1993</option>
+            </select>
+
+            <br>
+
+            <label for="agree">I agree to the terms and conditions</label>
+            <input type="checkbox" name="agree">
+
+            <br>
+
+            <button type="submit" name="submit">Submit</button>
+        </form>
+
+
+
+    </body>
+
+</html>

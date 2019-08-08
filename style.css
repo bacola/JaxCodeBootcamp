@@ -1,0 +1,119 @@
+/* Nav */
+.nav-section {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: lightseagreen;
+}
+
+.nav-li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 10px;
+    font-size: 24px;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+.header-section {
+    padding: 100px 0px 100px 0px;
+    background-image: url("background.jpg");
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+/* About */
+.about-section {
+    background-color: lightgray;
+    padding: 100px 0px;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-title_about {
+    color: white;
+}
+
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.about-desc {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Services */
+.services-section {
+    padding: 100px 0px;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.services-list {
+    text-align: center;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+/* Works */
+
+.work-section {
+    text-align: center;
+    background-color: lightgray;
+    padding: 100px 0px;
+}
+
+.work-title {
+    font-size: 40px;
+}
+
+.work-title_my {
+    color: white;
+}
+
+.image-1 {
+    float: left;
+    border: 5px solid black;
+}
+
+.image-2 {
+    border: 5px solid black;
+}
+
+.image-3 {
+    float: right;
+    border: 5px solid black;
+}
+
+/* Contact */
+.contact-section {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.submit-button {
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
